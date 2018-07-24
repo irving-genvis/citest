@@ -2,4 +2,4 @@ language: python
 python:
       - "3.6"
 script: 
-      - python unit_test.py
+      - python citest/test_calculator.py

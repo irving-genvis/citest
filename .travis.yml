@@ -2,4 +2,4 @@ language: python
 python:
       - "3.6"
 script: 
-      - python -m unittest citest/test_calculator.py
+      - python -m unittest ci/tests/test_calculator.py

@@ -7,6 +7,8 @@
 import setuptools
 
 setuptools.setup(
+    author="irving-genvis",
+    author_email="chenghuanl@genvis.co",
     name="ci",
     version="0.1.0",
     url="https://github.com/irving-genvis/citest.git",

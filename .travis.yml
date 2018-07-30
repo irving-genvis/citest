@@ -4,4 +4,5 @@ python:
 script: 
       - python -m unittest ci/tests/test_calculator.py
       - python setup.py sdist
+      - pip install twine
       - twine upload -r pypi-local --repository-url http://nexus.genvis.co/repository/pypi-local/ -u dev -p usainbolt2018 dist/ci-0.1.2.tar.gz

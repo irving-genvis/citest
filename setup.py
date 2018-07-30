@@ -6,19 +6,20 @@
 
 import setuptools
 
-ver = "0.1.7"
+ver = "0.1.8"
 
 setuptools.setup(
     author="irving-genvis",
     author_email="chenghuanl@genvis.co",
     name="ci",
     version=ver,
-    url="https://github.com/irving-genvis/citest.git",
+    url="https://github.com/irving-genvis/citest.git", # link to the github repo
     packages=setuptools.find_packages(),
     test_suite='nose.collector',
     tests_require=['nose'],
+    # add the dependencies of the package here
     install_requires=[
-          'numpy',
+          'numpy==1.14.5',
       ],
 )
 

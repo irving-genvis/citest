@@ -6,7 +6,7 @@
 
 import setuptools
 
-ver = "0.1.5"
+ver = "0.1.6"
 
 setuptools.setup(
     author="irving-genvis",
@@ -17,6 +17,9 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     test_suite='nose.collector',
     tests_require=['nose'],
+    install_requires=[
+          'numpy',
+      ],
 )
 
 with open("upload_to_nexus.sh", 'w') as f:

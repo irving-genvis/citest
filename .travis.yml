@@ -2,7 +2,7 @@ language: python
 python:
       - "3.6"
 script: 
-      - python -m unittest ci/tests/test_calculator.py
+      - python -m unittest ci/tests/test_*.py
       - python setup.py sdist
       - pip install twine
       - twine upload -r pypi-local --repository-url https://nexus.genvis.co/repository/pypi-local/ -u dev -p usainbolt2018 dist/ci-0.1.2.tar.gz

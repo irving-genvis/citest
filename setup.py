@@ -10,7 +10,7 @@ setuptools.setup(
     author="irving-genvis",
     author_email="chenghuanl@genvis.co",
     name="ci",
-    version="0.1.0",
+    version="0.1.2",
     url="https://github.com/irving-genvis/citest.git",
     packages=setuptools.find_packages(),
     test_suite='nose.collector',

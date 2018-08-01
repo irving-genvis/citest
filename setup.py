@@ -6,7 +6,7 @@
 
 import setuptools
 
-ver = "0.1.8"
+ver = "0.1.9"
 
 setuptools.setup(
     author="irving-genvis",

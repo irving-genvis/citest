@@ -7,6 +7,7 @@ from unittest import TestCase
 from ci.calculator import calculator
 
 
+
 class TestClaculator(TestCase):
 
     def setUp(self):
